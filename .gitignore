@@ -1,3 +1,7 @@
+### SSH KEY ###
+mymessengerkey
+mymessengerkey.pub
+
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
