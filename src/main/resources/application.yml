@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: mymessenger 서비스
+  profiles:
+    active:
+      - dev
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+
+server:
+  port: 8080
+  servlet:
+    context-path: /mymessenger
+
+---
+
+spring:
+  profiles: dev
+
+---
+
+spring:
+  profiles: real
