@@ -1,5 +1,6 @@
 package com.example.mymessenger.common.util;
 
+import com.example.mymessenger.StaticBaseBean;
 import org.springframework.core.io.ClassPathResource;
 
 import java.io.BufferedReader;
@@ -8,7 +9,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.net.URI;
 
-public class FileUtil {
+public class FileUtil extends StaticBaseBean {
 
     public static String readFile(String path) throws IOException {
         var sb = new StringBuilder();

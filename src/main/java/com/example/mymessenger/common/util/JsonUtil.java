@@ -1,5 +1,6 @@
 package com.example.mymessenger.common.util;
 
+import com.example.mymessenger.StaticBaseBean;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.boot.configurationprocessor.json.JSONArray;
@@ -8,7 +9,7 @@ import org.springframework.boot.configurationprocessor.json.JSONObject;
 
 import java.util.List;
 
-public class JsonUtil {
+public class JsonUtil extends StaticBaseBean {
 
     private static ObjectMapper objectMapper = new ObjectMapper();
 
