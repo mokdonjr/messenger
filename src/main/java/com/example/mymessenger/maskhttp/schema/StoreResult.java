@@ -1,13 +1,13 @@
-package com.example.mymessenger.mask.schemas;
+package com.example.mymessenger.maskhttp.schema;
 
 import java.util.List;
 
-public class SaleResult extends AbsMaskSchema {
+public class StoreResult extends AbsMaskSchema {
     private Long totalPages;
     private Long totalCount;
     private Long page;
     private Long count;
-    private List<Sale> sales;
+    private List<Store> storeInfos;
 
     public Long getTotalPages() {
         return totalPages;
@@ -41,11 +41,11 @@ public class SaleResult extends AbsMaskSchema {
         this.count = count;
     }
 
-    public List<Sale> getSales() {
-        return sales;
+    public List<Store> getStoreInfos() {
+        return storeInfos;
     }
 
-    public void setSales(List<Sale> sales) {
-        this.sales = sales;
+    public void setStoreInfos(List<Store> storeInfos) {
+        this.storeInfos = storeInfos;
     }
 }

@@ -1,4 +1,4 @@
-package com.example.mymessenger.mask.schemas;
+package com.example.mymessenger.maskhttp.schema;
 
 public class Sale extends AbsMaskSchema {
     // 식별 코드

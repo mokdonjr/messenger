@@ -17,11 +17,11 @@ public abstract class AbsHttpService extends BaseBean implements IHttpService {
     protected abstract HttpRequest getHttpRequest(String url, Map<Object, Object> param);
 
     @Override
-    public void request(String url, Map<Object, Object> param) {
-        sendHttpRequest(getHttpRequest(url, param));
+    public HttpResponse<String> request(String url, Map<Object, Object> param) {
+        return sendHttpRequest(getHttpRequest(url, param));
     }
 
-    private void sendHttpRequest(HttpRequest httpRequest) {
+    private HttpResponse<String> sendHttpRequest(HttpRequest httpRequest) {
         long startAt = System.currentTimeMillis();
         HttpClient httpClient = HttpClient.newBuilder()
                 .version(HttpClient.Version.HTTP_2)
@@ -41,6 +41,8 @@ public abstract class AbsHttpService extends BaseBean implements IHttpService {
         } else {
             logger.info("[HTTP_RESPONSE] duration:{} response status:{} body:{}", duration, httpResponse.statusCode(), httpResponse.body());
         }
+
+        return httpResponse;
     }
 
     /**

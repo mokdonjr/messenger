@@ -1,4 +1,4 @@
-package com.example.mymessenger.mask.schemas;
+package com.example.mymessenger.maskhttp.schema;
 
 import java.util.List;
 
