@@ -1,5 +1,6 @@
 package com.example.mymessenger;
 
+import com.example.mymessenger.common.StaticBaseBean;
 import com.example.mymessenger.common.util.LogUtil;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

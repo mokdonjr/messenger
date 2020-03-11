@@ -1,6 +1,6 @@
 package com.example.mymessenger.mask.service;
 
-import com.example.mymessenger.BaseBean;
+import com.example.mymessenger.common.BaseBean;
 import org.springframework.stereotype.Service;
 
 /**

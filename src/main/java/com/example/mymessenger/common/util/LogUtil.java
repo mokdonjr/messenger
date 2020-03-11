@@ -1,6 +1,6 @@
 package com.example.mymessenger.common.util;
 
-import com.example.mymessenger.StaticBaseBean;
+import com.example.mymessenger.common.StaticBaseBean;
 import org.springframework.util.StopWatch;
 
 public class LogUtil extends StaticBaseBean {

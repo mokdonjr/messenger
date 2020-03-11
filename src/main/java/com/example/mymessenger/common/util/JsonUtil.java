@@ -1,6 +1,6 @@
 package com.example.mymessenger.common.util;
 
-import com.example.mymessenger.StaticBaseBean;
+import com.example.mymessenger.common.StaticBaseBean;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.boot.configurationprocessor.json.JSONArray;

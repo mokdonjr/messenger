@@ -11,12 +11,10 @@ public class HttpPostService extends AbsHttpService {
 
     @Override
     protected HttpRequest getHttpRequest(String url, Map<Object, Object> param) {
-        String requestParams = requestParams(param);
-        HttpRequest httpRequest = HttpRequest.newBuilder()
+        return HttpRequest.newBuilder()
                 .uri(URI.create(url))
-                .POST(HttpRequest.BodyPublishers.ofString(requestParams))
+                .POST(HttpRequest.BodyPublishers.ofString(requestParams(param)))
                 .header("Content-Type", "application/x-www-form-urlencoded")
                 .build();
-        return httpRequest;
     }
 }

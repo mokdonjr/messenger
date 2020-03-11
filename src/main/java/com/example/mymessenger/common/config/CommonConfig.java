@@ -1,6 +1,6 @@
 package com.example.mymessenger.common.config;
 
-import com.example.mymessenger.BaseBean;
+import com.example.mymessenger.common.BaseBean;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

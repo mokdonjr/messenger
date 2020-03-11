@@ -1,6 +1,6 @@
 package com.example.mymessenger.common.service.http;
 
-import com.example.mymessenger.BaseBean;
+import com.example.mymessenger.common.BaseBean;
 
 import java.io.IOException;
 import java.net.URLEncoder;
@@ -51,7 +51,7 @@ public abstract class AbsHttpService extends BaseBean implements IHttpService {
      * @return
      */
     protected String requestParams(Map<Object, Object> param) {
-        var sb = new StringBuffer();
+        var sb = new StringBuilder();
         if (param != null) {
             for (Map.Entry<Object, Object> entry : param.entrySet()) {
                 if (sb.length() > 0) {

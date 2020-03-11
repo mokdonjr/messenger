@@ -1,10 +1,9 @@
 package com.example.mymessenger;
 
+import com.example.mymessenger.common.StaticBaseBeanTest;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class MymessengerApplicationTests {
+class MymessengerApplicationTests extends StaticBaseBeanTest {
 
 	@Test
 	void contextLoads() {

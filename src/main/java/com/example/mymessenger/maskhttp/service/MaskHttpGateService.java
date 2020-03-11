@@ -1,6 +1,6 @@
 package com.example.mymessenger.maskhttp.service;
 
-import com.example.mymessenger.BaseBean;
+import com.example.mymessenger.common.BaseBean;
 import com.example.mymessenger.maskhttp.service.AbsMaskHttpService.MaskHttpURL;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

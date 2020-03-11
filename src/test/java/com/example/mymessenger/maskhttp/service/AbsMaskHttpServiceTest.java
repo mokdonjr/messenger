@@ -1,6 +1,6 @@
 package com.example.mymessenger.maskhttp.service;
 
-import com.example.mymessenger.BaseBeanTest;
+import com.example.mymessenger.common.BaseBeanTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
