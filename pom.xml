@@ -112,7 +112,7 @@
 						<jvmFlags>
 							<jvmFlag>-Xms512m</jvmFlag>
 							<jvmFlag>-Xdebug</jvmFlag>
-						</jvmFlags>]
+						</jvmFlags>
 						<!-- mainClass와 jvmFlags를 덮어씀 -->
 						<entrypoint>
 							<!--<shell>sh</shell>
